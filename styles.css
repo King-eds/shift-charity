@@ -1,0 +1,226 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #004aad; /* Cobalt Blue */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #88d499; /* Light Green */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #004aad; /* Cobalt Blue */
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: #ff943b; /* Orange */
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* Call to Action Button */
+.cta-button {
+    background-color: #ff0a05; /* Red */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff943b; /* Orange */
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Social Media Links */
+.social-links {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #004aad;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #ff0a05; /* Red */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #004aad; /* Cobalt Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+/* Newsletter Form Styling */
+.newsletter-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form input[type="email"] {
+    width: 80%;
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border: 2px solid #004aad;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 12px 25px;
+    background-color: #ff943b; /* Orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.newsletter-form button:hover {
+    background-color: #ff0a05; /* Red */
+}
+
+/* Contact Form Styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 2px solid #004aad;
+}
+
+form input[type="submit"] {
+    background-color: #ff943b; /* Orange */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff0a05; /* Red */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 70%;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+}
